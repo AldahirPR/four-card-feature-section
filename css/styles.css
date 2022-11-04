@@ -150,6 +150,11 @@ img{
     .container{
         max-width: 300px;
         margin: 0 auto;
+        height: fit-content;
+    }
+
+    h1{
+        font-size: 25px;
     }
 
     .header{
@@ -160,7 +165,7 @@ img{
 
     .main-description{
         width: 320px;
-        margin-left: 30px;
+        margin-left: 40px;
     }
 
     .empty{
@@ -171,8 +176,9 @@ img{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 80px auto;
+        margin: 120px auto 20px;
         width: 100%;
+        height: auto;
     }
 
     .team-builder{
@@ -183,8 +189,6 @@ img{
     .karma{
         margin-top: 0;
     }
-    .calculator{
-        margin-bottom: 25px;
+    
 
-    }
 }
